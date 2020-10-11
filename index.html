@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="center">
+        <div id="stats">
+            <div class="label">
+                <p>timer</p>
+                <div id="timer"> <span>60</span></div>
+            </div>
+            <div class="label">
+                <p>score</p>
+                <div id="score">0</div>
+            </div>
+            <div class="label">
+                <p>high-score</p>
+                <div id="high-score">0</div>
+            </div>
+
+        </div>
+        <div>
+            <button id="start">Start</button>
+        </div>
+        <div id="board">
+            <div class="row">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div class="row">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div class="row">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+    <script src="stats.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
